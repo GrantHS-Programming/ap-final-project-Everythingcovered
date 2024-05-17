@@ -1,4 +1,3 @@
 res://game.tscn
-res://killzone.gd
-res://killzone.tscn
-res://character_body_2d.gd
+res://player.tscn
+res://player.gd

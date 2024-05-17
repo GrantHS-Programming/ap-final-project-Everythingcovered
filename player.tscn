@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://16wny7a7jlm8"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_13seq"]
+[ext_resource type="Texture2D" uid="uid://dunwnuawm75mw" path="res://brackeys_platformer_assets/sprites/DarkSamurai (64x64).png" id="1_ocebk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bby7v"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7n3fq"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85ci2"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xljo7"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4tqnt"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ce6j3"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqbhg"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l0ffu"]
+atlas = ExtResource("1_ocebk")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_43uf0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bby7v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7n3fq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85ci2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xljo7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4tqnt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ce6j3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqbhg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l0ffu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l1w25"]
+size = Vector2(11, 27)
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_13seq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -16)
+sprite_frames = SubResource("SpriteFrames_43uf0")
+autoplay = "default"
+frame_progress = 0.678207
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -14.5)
+shape = SubResource("RectangleShape2D_l1w25")

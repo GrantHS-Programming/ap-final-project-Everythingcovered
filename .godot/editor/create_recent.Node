@@ -1,3 +1,10 @@
-Node
-Timer
+TileMap
 CollisionShape2D
+StaticBody2D
+Camera2D
+AnimatedSprite2D
+CharacterBody2D
+Node2D
+Node
+GraphElement
+Timer
