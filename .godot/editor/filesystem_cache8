@@ -1,12 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715793674
-character_body_2d.gd::GDScript::-1::1715277314::0::1::::<>CharacterBody2D<>::
+::res://::1715966135
+character_body_2d.gd::GDScript::-1::1715796905::0::1::::<>CharacterBody2D<>::
 character_body_2d.tscn::PackedScene::7430813017938687592::1715278705::0::1::::<><>::uid://krcn0xercurx::::res://brackeys_platformer_assets/sprites/knight.png<>res://character_body_2d.gd
 coin.gd::GDScript::-1::1715278517::0::1::::<>Area2D<>::
 coin.tscn::PackedScene::6822088013486006815::1715278705::0::1::::<><>::res://coin.gd<>uid://gu5mxymovdkc::::res://brackeys_platformer_assets/sprites/coin.png
-game.tscn::PackedScene::6595817575239123279::1715278705::0::1::::<><>::uid://dd4sn05kds68k::::res://character_body_2d.tscn<>uid://cy37vh5prqvk1::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://0nvsy8bqkfhg::::res://platform.tscn<>uid://c4gw17sw2twux::::res://coin.tscn
+game.tscn::PackedScene::6595817575239123279::1715798218::0::1::::<><>::uid://dd4sn05kds68k::::res://character_body_2d.tscn<>uid://cy37vh5prqvk1::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://0nvsy8bqkfhg::::res://platform.tscn<>uid://c4gw17sw2twux::::res://coin.tscn<>uid://vj00nm7x46d7::::res://killzone.tscn
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1715793644::1::::<><>::
-killzone.tscn::PackedScene::1494108388679051994::1715279042::0::1::::<><>::
+killzone.gd::GDScript::-1::1715796791::0::1::::<>Area2D<>::
+killzone.tscn::PackedScene::1494108388679051994::1715798194::0::1::::<><>::res://killzone.gd
 platform.tscn::PackedScene::1782866514498135608::1714757000::0::1::::<><>::uid://dksws2djl3whr::::res://brackeys_platformer_assets/sprites/platforms.png
 README.md::TextFile::-1::1715276047::0::1::::<><>::
 ::res://brackeys_platformer_assets/::1715276171
