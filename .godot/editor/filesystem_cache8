@@ -1,8 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715969574
-player.tscn::PackedScene::1890265944163595309::1715969574::0::1::::<><>::res://player.gd<>uid://dunwnuawm75mw::::res://brackeys_platformer_assets/sprites/DarkSamurai (64x64).png
-game.tscn::PackedScene::5851783640235718081::1715969574::0::1::::<><>::uid://16wny7a7jlm8::::res://player.tscn
-player.gd::GDScript::-1::1715969413::0::1::::<>CharacterBody2D<>::
+::res://::1716312340
 ::res://brackeys_platformer_assets/::1715276171
 LICENSE & CREDITS.txt::TextFile::-1::1713594094::0::1::::<><>::
 ::res://brackeys_platformer_assets/fonts/::1715793644
@@ -17,7 +14,7 @@ hurt.wav::AudioStreamWAV::1091729824314458283::1710386050::1715793644::1::::<><>
 jump.wav::AudioStreamWAV::1334092059471749923::1710386186::1715793644::1::::<><>::
 power_up.wav::AudioStreamWAV::9080476255594875546::1710386380::1715793644::1::::<><>::
 tap.wav::AudioStreamWAV::8924611994392531626::1710386064::1715793644::1::::<><>::
-::res://brackeys_platformer_assets/sprites/::1715969624
+::res://brackeys_platformer_assets/sprites/::1715969629
 coin.png::CompressedTexture2D::464264801896364778::1709947910::1715793644::1::::<><>::
 Crow.png::CompressedTexture2D::1946326850143468099::1715967827::1715968047::1::::<><>::
 DarkSamurai (64x64).png::CompressedTexture2D::8591235875288264870::1698809918::1715968447::1::::<><>::
@@ -27,20 +24,19 @@ platforms.png::CompressedTexture2D::7899678628353465159::1709953418::1715793644:
 slime_green.png::CompressedTexture2D::1266401256265355084::1709949016::1715793644::1::::<><>::
 slime_purple.png::CompressedTexture2D::7767481775626696958::1709949440::1715793644::1::::<><>::
 world_tileset.png::CompressedTexture2D::6517157051965668786::1709953936::1715793644::1::::<><>::
-::res://brackeys_platformer_assets/sprites/Free/::1711476779
+::res://brackeys_platformer_assets/sprites/Free/::1715969628
 Free.png::CompressedTexture2D::6732701059831579379::1711476779::1715969628::1::::<><>::
 Mockup.png::CompressedTexture2D::4523755133034794936::1711476779::1715969628::1::::<><>::
 Terrain-and-Props-OLD.png::CompressedTexture2D::7811141777507977639::1711476780::1715969628::1::::<><>::
 Terrain_and_Props.png::CompressedTexture2D::8116810668323387783::1711476780::1715969628::1::::<><>::
-::res://brackeys_platformer_assets/sprites/Free/BG_1/::1711476779
+::res://brackeys_platformer_assets/sprites/Free/BG_1/::1715969628
 BG_1.png::CompressedTexture2D::4047878956277575572::1711476779::1715969628::1::::<><>::
-::res://brackeys_platformer_assets/sprites/Free/BG_2/::1711476779
+::res://brackeys_platformer_assets/sprites/Free/BG_2/::1715969628
 BG_2.png::CompressedTexture2D::7958267582165802805::1711476779::1715969628::1::::<><>::
-::res://brackeys_platformer_assets/sprites/Free/BG_3/::1711476779
+::res://brackeys_platformer_assets/sprites/Free/BG_3/::1715969628
 BG_3.png::CompressedTexture2D::3512068647046210096::1711476779::1715969628::1::::<><>::
 BG_3_alt.png::CompressedTexture2D::7021298285504409967::1711476779::1715969628::1::::<><>::
 ::res://Random/::1715968047
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1715968047::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1715968968
-game.tscn::PackedScene::6840363107324791927::1715968968::0::1::::<><>::
+::res://Scenes/::1716312327
