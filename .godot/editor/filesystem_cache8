@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716312340
+::res://::1716489302
 ::res://brackeys_platformer_assets/::1715276171
 LICENSE & CREDITS.txt::TextFile::-1::1713594094::0::1::::<><>::
 ::res://brackeys_platformer_assets/fonts/::1715793644
@@ -36,7 +36,13 @@ BG_2.png::CompressedTexture2D::7958267582165802805::1711476779::1715969628::1:::
 ::res://brackeys_platformer_assets/sprites/Free/BG_3/::1715969628
 BG_3.png::CompressedTexture2D::3512068647046210096::1711476779::1715969628::1::::<><>::
 BG_3_alt.png::CompressedTexture2D::7021298285504409967::1711476779::1715969628::1::::<><>::
-::res://Random/::1715968047
+::res://Random/::1716489302
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1715968047::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1716312327
+::res://Scenes/::1716489162
+game.tscn::PackedScene::8730997806690818622::1716489162::0::1::::<><>::uid://c0febvk2g26v1::::res://aerial_rocks_01_diff_4k.png<>res://Scenes/Player.gd<>uid://dyxncp0ar2os3::::res://textures/aerial_rocks_01_nor_gl_4k.png<>uid://dvmeyiehqnthu::::res://textures/aerial_rocks_01_rough_4k.png
+Player.gd::GDScript::-1::1716485235::0::1::::<>CharacterBody3D<>::
+::res://textures/::1716489311
+slab_tiles_diff_4k.png::CompressedTexture2D::8277974521923437293::1716489252::1716489346::1::::<><>::
+slab_tiles_nor_gl_4k.png::CompressedTexture2D::6870436994453936875::1716489254::1716489355::1::::<><>::
+slab_tiles_rough_4k.png::CompressedTexture2D::8818055097508526828::1716489258::1716489366::1::::<><>::

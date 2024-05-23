@@ -1,6 +1,8 @@
-Camera3D
 Node3D
+CollisionShape3D
+StaticBody3D
 MeshInstance3D
+Camera3D
 CharacterBody3D
 RigidBody3D
 MultiMeshInstance3D
@@ -10,5 +12,3 @@ StaticBody2D
 Camera2D
 AnimatedSprite2D
 CharacterBody2D
-Node2D
-Node
