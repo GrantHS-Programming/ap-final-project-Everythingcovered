@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 var current_speed
-var accel_speed = 15.50
+var accel_speed = 15.7
 var direction = Vector3.ZERO
 
 const walking_speed = 3.95
