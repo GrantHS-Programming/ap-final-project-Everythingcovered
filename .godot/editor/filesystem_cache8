@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717438691
+::res://::1717437814
 box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
 ::res://addons/::1717437752
 ::res://addons/simplegrasstextured/::1717437808
@@ -64,11 +64,11 @@ boulder_01_nor_gl_4k.jpg::CompressedTexture2D::7775714521325561811::1717091918::
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717438607
-game.tscn::PackedScene::8730997806690818622::1717438607::0::1::::<><>::res://Scenes/Player.gd<>uid://brk5ejppwtc8d::::res://textures/textures 2/leafy_grass_diff_4k.png<>uid://dwuyntojkmvue::::res://textures/textures 2/leafy_grass_nor_gl_4k.png<>uid://b7smmuu3pccak::::res://textures/textures 2/leafy_grass_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd
+::res://Scenes/::1717437861
+game.tscn::PackedScene::8730997806690818622::1717437861::0::1::::<><>::uid://dkxlawkuphy7v::::res://textures/textures 2/coast_sand_rocks_02_diff_4k.png<>res://Scenes/Player.gd<>uid://brhmau5w2d26d::::res://textures/textures 2/coast_sand_rocks_02_nor_gl_4k.png<>uid://cklmikb0afe1q::::res://textures/textures 2/coast_sand_rocks_02_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd
 Player.gd::GDScript::-1::1717437420::0::1::::<>CharacterBody3D<>::
-::res://textures/::1717438426
-::res://textures/textures 2/::1717438479
+::res://textures/::1717438421
+::res://textures/textures 2/::1717438390
 leafy_grass_diff_4k.png::CompressedTexture2D::3602103952632761349::1717438380::1717438479::1::::<><>::
 leafy_grass_mask_4k.png::CompressedTexture2D::5737389102612463325::1717438384::1717438428::1::::<><>::
 leafy_grass_nor_gl_4k.png::CompressedTexture2D::8746185609338063264::1717438384::1717438460::1::::<><>::
