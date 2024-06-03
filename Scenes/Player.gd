@@ -1,12 +1,12 @@
 extends CharacterBody3D
 
 var current_speed
-var accel_speed = 15.7
+var accel_speed = 15.5
 var direction = Vector3.ZERO
 
-const walking_speed = 3.95
+const walking_speed = 2.95
 const sprinting_speed = 4.75
-const JUMP_VELOCITY = 2.8
+const JUMP_VELOCITY = 1.95
 const mouse_sens = 0.00055
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
