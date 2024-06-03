@@ -4,10 +4,9 @@ var current_speed
 var accel_speed = 15.7
 var direction = Vector3.ZERO
 
-const walking_speed = 3.95
-const sprinting_speed = 4.75
-const JUMP_VELOCITY = 2.8
-const mouse_sens = 0.00055
+const walking_speed = 8.75
+const JUMP_VELOCITY = 3.8
+const mouse_sens = 0.00075
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -28,7 +27,7 @@ func _unhandled_input(event: InputEvent):
 func _physics_process(delta):
 	
 	if Input.is_action_pressed("sprint"):
-		current_speed = sprinting_speed
+		current_speed = walking_speed
 	else:
 		current_speed = walking_speed
 	
@@ -39,6 +38,9 @@ func _physics_process(delta):
 	# Handle jump.
 	if Input.is_action_just_pressed("move_jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
+	
+	if Input.is_action_just_pressed("reset"):
+		$Player.translation = Vector3(0.1, 0.1, 0.1)
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
