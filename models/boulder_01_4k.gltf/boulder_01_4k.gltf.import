@@ -36,8 +36,10 @@ _subresources={
 "physics/physics_material_override": Object(PhysicsMaterial,"resource_local_to_scene":false,"resource_name":"","friction":1.0,"rough":false,"bounce":0.0,"absorbent":false,"script":null)
 ,
 "physics/shape_type": 6,
-"primitive/position": Vector3(-0.1, 0.35, 2.08165e-12),
-"primitive/radius": 0.7
+"primitive/height": 1.75,
+"primitive/position": Vector3(-0.1, 0.38, 2.08165e-12),
+"primitive/radius": 0.6,
+"primitive/rotation": Vector3(75, 2.08165e-12, 2.08165e-12)
 }
 }
 }
