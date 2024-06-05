@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717437814
+::res://::1717609380
 box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
 ::res://addons/::1717437752
 ::res://addons/simplegrasstextured/::1717437808
@@ -54,21 +54,23 @@ normal.gdshader::Shader::-1::1702673099::0::1::::<><>::
 position.gdshader::Shader::-1::1702673099::0::1::::<><>::
 ::res://addons/simplegrasstextured/textures/::1717437808
 grassbushcc008.png::CompressedTexture2D::6821074585685753060::1702673099::1717437808::1::::<><>::
-::res://models/::1717091972
-::res://models/boulder_01_4k.gltf/::1717437440
-boulder_01_4k.gltf::PackedScene::6515095327653842886::1717091916::1717437440::1::::<><>::uid://qhb72rg5ko38::::res://models/boulder_01_4k.gltf/textures/boulder_01_diff_4k.jpg<>uid://diasj2a4lhtet::::res://models/boulder_01_4k.gltf/textures/boulder_01_arm_4k.jpg<>uid://di1u48y342fxj::::res://models/boulder_01_4k.gltf/textures/boulder_01_nor_gl_4k.jpg
-::res://models/boulder_01_4k.gltf/textures/::1717091983
-boulder_01_arm_4k.jpg::CompressedTexture2D::7721883197661580783::1717091918::1717091982::1::::<><>::
-boulder_01_diff_4k.jpg::CompressedTexture2D::1137591449589901505::1717091920::1717091982::1::::<><>::
-boulder_01_nor_gl_4k.jpg::CompressedTexture2D::7775714521325561811::1717091918::1717091983::1::::<><>::
+::res://models/::1717609243
+::res://models/textures 2/::1717609297
+celandine_01_alpha_4k.png::CompressedTexture2D::5665252025835947061::1717609200::1717609294::1::::<><>::
+celandine_01_ao_4k.png::CompressedTexture2D::2662953412210129209::1717609200::1717609294::1::::<><>::
+celandine_01_arm_4k.png::CompressedTexture2D::8949976729063793532::1717609204::1717609296::1::::<><>::
+celandine_01_diff_4k.png::CompressedTexture2D::229808611153763930::1717609200::1717609296::1::::<><>::
+celandine_01_disp_4k.png::CompressedTexture2D::1641473006895449154::1717609200::1717609294::1::::<><>::
+celandine_01_nor_gl_4k.png::CompressedTexture2D::7657651674163531708::1717609204::1717609297::1::::<><>::
+celandine_01_rough_4k.png::CompressedTexture2D::6886888973117211947::1717609204::1717609294::1::::<><>::
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717437861
-game.tscn::PackedScene::8730997806690818622::1717437861::0::1::::<><>::uid://dkxlawkuphy7v::::res://textures/textures 2/coast_sand_rocks_02_diff_4k.png<>res://Scenes/Player.gd<>uid://brhmau5w2d26d::::res://textures/textures 2/coast_sand_rocks_02_nor_gl_4k.png<>uid://cklmikb0afe1q::::res://textures/textures 2/coast_sand_rocks_02_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd
-Player.gd::GDScript::-1::1717437420::0::1::::<>CharacterBody3D<>::
-::res://textures/::1717438421
-::res://textures/textures 2/::1717438390
+::res://Scenes/::1717609314
+game.tscn::PackedScene::8730997806690818622::1717609314::0::1::::<><>::res://Scenes/Player.gd
+Player.gd::GDScript::-1::1717439087::0::1::::<>CharacterBody3D<>::
+::res://textures/::1717438426
+::res://textures/textures 2/::1717438479
 leafy_grass_diff_4k.png::CompressedTexture2D::3602103952632761349::1717438380::1717438479::1::::<><>::
 leafy_grass_mask_4k.png::CompressedTexture2D::5737389102612463325::1717438384::1717438428::1::::<><>::
 leafy_grass_nor_gl_4k.png::CompressedTexture2D::8746185609338063264::1717438384::1717438460::1::::<><>::
