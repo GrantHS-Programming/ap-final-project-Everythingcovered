@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717437814
+::res://::1717611103
 box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
 ::res://addons/::1717437752
 ::res://addons/simplegrasstextured/::1717437808
@@ -54,21 +54,55 @@ normal.gdshader::Shader::-1::1702673099::0::1::::<><>::
 position.gdshader::Shader::-1::1702673099::0::1::::<><>::
 ::res://addons/simplegrasstextured/textures/::1717437808
 grassbushcc008.png::CompressedTexture2D::6821074585685753060::1702673099::1717437808::1::::<><>::
-::res://models/::1717091972
-::res://models/boulder_01_4k.gltf/::1717437440
-boulder_01_4k.gltf::PackedScene::6515095327653842886::1717091916::1717437440::1::::<><>::uid://qhb72rg5ko38::::res://models/boulder_01_4k.gltf/textures/boulder_01_diff_4k.jpg<>uid://diasj2a4lhtet::::res://models/boulder_01_4k.gltf/textures/boulder_01_arm_4k.jpg<>uid://di1u48y342fxj::::res://models/boulder_01_4k.gltf/textures/boulder_01_nor_gl_4k.jpg
-::res://models/boulder_01_4k.gltf/textures/::1717091983
-boulder_01_arm_4k.jpg::CompressedTexture2D::7721883197661580783::1717091918::1717091982::1::::<><>::
-boulder_01_diff_4k.jpg::CompressedTexture2D::1137591449589901505::1717091920::1717091982::1::::<><>::
-boulder_01_nor_gl_4k.jpg::CompressedTexture2D::7775714521325561811::1717091918::1717091983::1::::<><>::
+::res://FBX2glTF-macos-x86_64/::1686679876
+FBX2glTF-License.txt::TextFile::-1::1686679876::0::1::::<><>::
+::res://models/::1717610165
+::res://models/Stylized Environment by Baloota (extract.me)/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/Assets/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/Assets/FBX/::1717610615
+Branches.fbx::PackedScene::8478729167513413623::1654817522::1717610615::1::::<><>::
+Bush 1.fbx::PackedScene::5948899392075727295::1655308472::1717610615::1::::<><>::
+Bush 2.fbx::PackedScene::6679696291627198244::1655309708::1717610615::1::::<><>::
+Flower 1.fbx::PackedScene::595160240351247333::1655309276::1717610615::1::::<><>::
+Flower 2.fbx::PackedScene::5184542446993532543::1655255418::1717610615::1::::<><>::
+Flower 3.fbx::PackedScene::6148369208232952709::1655309106::1717610615::1::::<><>::
+Flower 4.fbx::PackedScene::3830316159667614112::1656291080::1717610615::1::::<><>::
+Grass.fbx::PackedScene::125514800523115953::1654811056::1717610615::1::::<><>::
+Leaves.fbx::PackedScene::8213255404844481241::1656019318::1717610615::1::::<><>::
+PileofRocks.fbx::PackedScene::6946220818926670250::1655166634::1717610615::1::::<><>::
+Rock.fbx::PackedScene::176806434163146989::1655166396::1717610615::1::::<><>::
+Tall Plant 1.fbx::PackedScene::236961808046566820::1654811210::1717610614::1::::<><>::
+Tall Plant 2.fbx::PackedScene::466805370921038506::1654817316::1717610614::1::::<><>::
+Tree.fbx::PackedScene::1288153786234784371::1655852510::1717610614::1::::<><>::
+::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/::1717610698
+Branch Mask.png::CompressedTexture2D::4783824790244807281::1655255316::1717610613::1::::<><>::
+Foliage Color Map.png::CompressedTexture2D::349116621040255576::1655246396::1717610613::1::::<><>::
+Foliage Color Mask.png::CompressedTexture2D::8436143050598285416::1656019038::1717610614::1::::<><>::
+Foliage Outline Mask.png::CompressedTexture2D::9172183838429704385::1655251790::1717610613::1::::<><>::
+Foliage Wind Mask.png::CompressedTexture2D::1058073945383626678::1654726752::1717610614::1::::<><>::
+Light Mask.png::CompressedTexture2D::1230921304136004345::1653601864::1717610614::1::::<><>::
+Normal Map.png::CompressedTexture2D::3085388622017552907::1653422642::1717610613::1::::<><>::
+Rock AO.png::CompressedTexture2D::7073104584717293750::1655165850::1717610614::1::::<><>::
+Rock Color Map.png::CompressedTexture2D::4474333357128939805::1655163946::1717610614::1::::<><>::
+Rock Normal Map 2.png::CompressedTexture2D::4990751320028024622::1627925410::1717610614::1::::<><>::
+Rock Normal Map.png::CompressedTexture2D::7674816186971762155::1655163850::1717610614::1::::<><>::
+Tree Alpha.png::CompressedTexture2D::1763277532861806522::1655337286::1717610613::1::::<><>::
+Tree-Bark_Albedo.png::CompressedTexture2D::6159483619809256984::1656296542::1717610698::1::::<><>::
+Tree-Bark_Normal.png::CompressedTexture2D::8191358079682790650::1656296542::1717610614::1::::<><>::
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/Content/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/Content/Material/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/Content/Material/Landscape/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/Content/Mesh/::1717610130
+::res://models/Stylized Environment by Baloota (extract.me)/StylizedEnv 4.27/Content/Textures/::1717610130
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717437861
-game.tscn::PackedScene::8730997806690818622::1717437861::0::1::::<><>::uid://dkxlawkuphy7v::::res://textures/textures 2/coast_sand_rocks_02_diff_4k.png<>res://Scenes/Player.gd<>uid://brhmau5w2d26d::::res://textures/textures 2/coast_sand_rocks_02_nor_gl_4k.png<>uid://cklmikb0afe1q::::res://textures/textures 2/coast_sand_rocks_02_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd
-Player.gd::GDScript::-1::1717437420::0::1::::<>CharacterBody3D<>::
-::res://textures/::1717438421
-::res://textures/textures 2/::1717438390
+::res://Scenes/::1717610857
+game.tscn::PackedScene::8730997806690818622::1717610857::0::1::::<><>::res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>uid://brk5ejppwtc8d::::res://textures/textures 2/leafy_grass_diff_4k.png<>uid://b7smmuu3pccak::::res://textures/textures 2/leafy_grass_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://sl8x7t4nyfwd::::res://models/Stylized Environment by Baloota (extract.me)/Assets/FBX/Tree.fbx
+Player.gd::GDScript::-1::1717439087::0::1::::<>CharacterBody3D<>::
+::res://textures/::1717609558
+::res://textures/textures 2/::1717438479
 leafy_grass_diff_4k.png::CompressedTexture2D::3602103952632761349::1717438380::1717438479::1::::<><>::
 leafy_grass_mask_4k.png::CompressedTexture2D::5737389102612463325::1717438384::1717438428::1::::<><>::
 leafy_grass_nor_gl_4k.png::CompressedTexture2D::8746185609338063264::1717438384::1717438460::1::::<><>::
