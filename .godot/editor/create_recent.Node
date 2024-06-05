@@ -1,11 +1,11 @@
-MeshInstance3D
-RigidBody3D
 SimpleGrassTextured
 Node3D
+MeshInstance3D
 CollisionShape3D
 StaticBody3D
 Camera3D
 CharacterBody3D
+RigidBody3D
 MultiMeshInstance3D
 TileMap
 CollisionShape2D
