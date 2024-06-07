@@ -6,8 +6,9 @@ var direction = Vector3.ZERO
 
 const walking_speed = 2.95
 const sprinting_speed = 4.75
-const JUMP_VELOCITY = 1.95
+const JUMP_VELOCITY = 5.95
 const mouse_sens = 0.00055
+const pgravity = 12
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -23,7 +24,7 @@ func _unhandled_input(event: InputEvent):
 		if event is InputEventMouseMotion:
 			neck.rotate_y(-event.relative.x * mouse_sens)
 			camera.rotate_x(-event.relative.y * mouse_sens)
-			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-30), deg_to_rad(60))
+			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-60), deg_to_rad(60))
 	
 func _physics_process(delta):
 	
@@ -34,14 +35,12 @@ func _physics_process(delta):
 	
 	# Add the gravity.
 	if not is_on_floor():
-		velocity.y -= gravity * delta
+		velocity.y -= pgravity * delta
 
 	# Handle jump.
 	if Input.is_action_just_pressed("move_jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
 	direction = lerp(direction,(neck.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized(), delta * accel_speed)
 	
@@ -53,3 +52,4 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, current_speed)
 
 	move_and_slide()
+	SimpleGrass.set_player_position(global_position)

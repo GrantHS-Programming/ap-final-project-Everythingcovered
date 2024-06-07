@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717781223
+::res://::1717785564
 box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
 Control.gd::GDScript::-1::1717781006::0::1::::<>Control<>::
 FPScounter.tscn::PackedScene::2143351686284504556::1717781006::0::1::::<><>::res://Control.gd
@@ -76,7 +76,7 @@ Rock.fbx::PackedScene::176806434163146989::1655166396::1717781178::1::::<><>::
 Tall Plant 1.fbx::PackedScene::236961808046566820::1654811210::1717610614::1::::<><>::
 Tall Plant 2.fbx::PackedScene::466805370921038506::1654817316::1717610614::1::::<><>::
 Tree.fbx::PackedScene::1288153786234784371::1655852510::1717611717::1::::<><>::
-::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/::1717610698
+::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/::1717782951
 Branch Mask.png::CompressedTexture2D::4783824790244807281::1655255316::1717610613::1::::<><>::
 Foliage Color Map.png::CompressedTexture2D::349116621040255576::1655246396::1717610613::1::::<><>::
 Foliage Color Mask.png::CompressedTexture2D::8436143050598285416::1656019038::1717610614::1::::<><>::
@@ -85,7 +85,7 @@ Foliage Wind Mask.png::CompressedTexture2D::1058073945383626678::1654726752::171
 Light Mask.png::CompressedTexture2D::1230921304136004345::1653601864::1717610614::1::::<><>::
 Normal Map.png::CompressedTexture2D::3085388622017552907::1653422642::1717610613::1::::<><>::
 Rock AO.png::CompressedTexture2D::7073104584717293750::1655165850::1717610614::1::::<><>::
-Rock Color Map.png::CompressedTexture2D::4474333357128939805::1655163946::1717610614::1::::<><>::
+Rock Color Map.png::CompressedTexture2D::4474333357128939805::1655163946::1717782951::1::::<><>::
 Rock Normal Map 2.png::CompressedTexture2D::4990751320028024622::1627925410::1717610614::1::::<><>::
 Rock Normal Map.png::CompressedTexture2D::7674816186971762155::1655163850::1717610614::1::::<><>::
 Tree Alpha.png::CompressedTexture2D::1763277532861806522::1655337286::1717610613::1::::<><>::
@@ -100,12 +100,16 @@ Tree-Bark_Normal.png::CompressedTexture2D::8191358079682790650::1656296542::1717
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717781216
-game.tscn::PackedScene::8730997806690818622::1717781216::0::1::::<><>::res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>uid://brk5ejppwtc8d::::res://textures/textures 2/leafy_grass_diff_4k.png<>uid://b7smmuu3pccak::::res://textures/textures 2/leafy_grass_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://5sixovnhr5im::::res://FPScounter.tscn
-Player.gd::GDScript::-1::1717439087::0::1::::<>CharacterBody3D<>::
-::res://textures/::1717609558
-::res://textures/textures 2/::1717438479
-leafy_grass_diff_4k.png::CompressedTexture2D::3602103952632761349::1717438380::1717438479::1::::<><>::
-leafy_grass_mask_4k.png::CompressedTexture2D::5737389102612463325::1717438384::1717438428::1::::<><>::
-leafy_grass_nor_gl_4k.png::CompressedTexture2D::8746185609338063264::1717438384::1717438460::1::::<><>::
-leafy_grass_rough_4k.png::CompressedTexture2D::4670373595778678674::1717438386::1717438467::1::::<><>::
+::res://Scenes/::1717785675
+game.gd::GDScript::-1::1717785503::0::1::::<>Node3D<>::
+game.tscn::PackedScene::8730997806690818622::1717785675::0::1::::<><>::res://Scenes/game.gd<>res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://5sixovnhr5im::::res://FPScounter.tscn<>uid://dl7w165x5t0e1::::res://textures/textures 2/ganges_river_pebbles_diff_4k.png<>uid://dunvr0visws8d::::res://textures/textures 2/ganges_river_pebbles_nor_gl_4k.png<>uid://dji8o1mny7aat::::res://textures/textures 2/ganges_river_pebbles_rough_4k.png
+Player.gd::GDScript::-1::1717785168::0::1::::<>CharacterBody3D<>::
+::res://textures/::1717785818
+::res://textures/grass/::1717785773
+brown_mud_leaves_01_diff_4k.png::CompressedTexture2D::8602929919155396183::1717785768::1717785878::1::::<><>::
+brown_mud_leaves_01_nor_gl_4k.png::CompressedTexture2D::1094263298932562524::1717785770::1717785832::1::::<><>::
+brown_mud_leaves_01_rough_4k.png::CompressedTexture2D::1260130256730667815::1717785770::1717785887::1::::<><>::
+::res://textures/textures 2/::1717785363
+ganges_river_pebbles_diff_4k.png::CompressedTexture2D::7998783299363829342::1717785254::1717785325::1::::<><>::
+ganges_river_pebbles_nor_gl_4k.png::CompressedTexture2D::8591182595900277309::1717785254::1717785356::1::::<><>::
+ganges_river_pebbles_rough_4k.png::CompressedTexture2D::7809506712498781747::1717785256::1717785363::1::::<><>::

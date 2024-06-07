@@ -1,2 +1,4 @@
 res://Scenes/game.tscn
-res://Control.gd
+res://Scenes/Player.gd
+res://Scenes/game.gd
+res://box.tscn
