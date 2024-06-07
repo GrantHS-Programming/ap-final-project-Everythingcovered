@@ -1,3 +1,4 @@
+SimpleGrassTextured
 Label
 Control
 CanvasLayer
@@ -7,9 +8,7 @@ StaticBody3D
 Node3D
 RigidBody3D
 MultiMeshInstance3D
-SimpleGrassTextured
 Camera3D
 CharacterBody3D
 TileMap
 CollisionShape2D
-StaticBody2D
