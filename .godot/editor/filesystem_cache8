@@ -1,6 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717611103
+::res://::1717781223
 box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
+Control.gd::GDScript::-1::1717781006::0::1::::<>Control<>::
+FPScounter.tscn::PackedScene::2143351686284504556::1717781006::0::1::::<><>::res://Control.gd
 ::res://addons/::1717437752
 ::res://addons/simplegrasstextured/::1717437808
 about.gd::GDScript::-1::1702673099::0::1::::<>AcceptDialog<>::
@@ -59,9 +61,9 @@ FBX2glTF-License.txt::TextFile::-1::1686679876::0::1::::<><>::
 ::res://models/::1717610165
 ::res://models/Stylized Environment by Baloota (extract.me)/::1717610130
 ::res://models/Stylized Environment by Baloota (extract.me)/Assets/::1717610130
-::res://models/Stylized Environment by Baloota (extract.me)/Assets/FBX/::1717610615
+::res://models/Stylized Environment by Baloota (extract.me)/Assets/FBX/::1717781178
 Branches.fbx::PackedScene::8478729167513413623::1654817522::1717610615::1::::<><>::
-Bush 1.fbx::PackedScene::5948899392075727295::1655308472::1717610615::1::::<><>::
+Bush 1.fbx::PackedScene::5948899392075727295::1655308472::1717781096::1::::<><>::
 Bush 2.fbx::PackedScene::6679696291627198244::1655309708::1717610615::1::::<><>::
 Flower 1.fbx::PackedScene::595160240351247333::1655309276::1717610615::1::::<><>::
 Flower 2.fbx::PackedScene::5184542446993532543::1655255418::1717610615::1::::<><>::
@@ -70,10 +72,10 @@ Flower 4.fbx::PackedScene::3830316159667614112::1656291080::1717610615::1::::<><
 Grass.fbx::PackedScene::125514800523115953::1654811056::1717610615::1::::<><>::
 Leaves.fbx::PackedScene::8213255404844481241::1656019318::1717610615::1::::<><>::
 PileofRocks.fbx::PackedScene::6946220818926670250::1655166634::1717610615::1::::<><>::
-Rock.fbx::PackedScene::176806434163146989::1655166396::1717610615::1::::<><>::
+Rock.fbx::PackedScene::176806434163146989::1655166396::1717781178::1::::<><>::
 Tall Plant 1.fbx::PackedScene::236961808046566820::1654811210::1717610614::1::::<><>::
 Tall Plant 2.fbx::PackedScene::466805370921038506::1654817316::1717610614::1::::<><>::
-Tree.fbx::PackedScene::1288153786234784371::1655852510::1717610614::1::::<><>::
+Tree.fbx::PackedScene::1288153786234784371::1655852510::1717611717::1::::<><>::
 ::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/::1717610698
 Branch Mask.png::CompressedTexture2D::4783824790244807281::1655255316::1717610613::1::::<><>::
 Foliage Color Map.png::CompressedTexture2D::349116621040255576::1655246396::1717610613::1::::<><>::
@@ -98,8 +100,8 @@ Tree-Bark_Normal.png::CompressedTexture2D::8191358079682790650::1656296542::1717
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717610857
-game.tscn::PackedScene::8730997806690818622::1717610857::0::1::::<><>::res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>uid://brk5ejppwtc8d::::res://textures/textures 2/leafy_grass_diff_4k.png<>uid://b7smmuu3pccak::::res://textures/textures 2/leafy_grass_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://sl8x7t4nyfwd::::res://models/Stylized Environment by Baloota (extract.me)/Assets/FBX/Tree.fbx
+::res://Scenes/::1717781216
+game.tscn::PackedScene::8730997806690818622::1717781216::0::1::::<><>::res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>uid://brk5ejppwtc8d::::res://textures/textures 2/leafy_grass_diff_4k.png<>uid://b7smmuu3pccak::::res://textures/textures 2/leafy_grass_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://5sixovnhr5im::::res://FPScounter.tscn
 Player.gd::GDScript::-1::1717439087::0::1::::<>CharacterBody3D<>::
 ::res://textures/::1717609558
 ::res://textures/textures 2/::1717438479

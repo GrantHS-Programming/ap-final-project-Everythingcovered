@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://5sixovnhr5im"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_ftp2f"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+offset = Vector2(5, 2.08165e-12)
+transform = Transform2D(1, 0, 0, 1, 5, 2.08165e-12)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ftp2f")
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
