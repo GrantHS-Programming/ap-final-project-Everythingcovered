@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717785564
-box.tscn::PackedScene::5138720157366974669::1717093727::0::1::::<><>::
+::res://::1718125685
+box.tscn::PackedScene::5138720157366974669::1717786538::0::1::::<><>::
 Control.gd::GDScript::-1::1717781006::0::1::::<>Control<>::
 FPScounter.tscn::PackedScene::2143351686284504556::1717781006::0::1::::<><>::res://Control.gd
 ::res://addons/::1717437752
@@ -100,12 +100,12 @@ Tree-Bark_Normal.png::CompressedTexture2D::8191358079682790650::1656296542::1717
 ::res://Random/::1717437440
 icon.svg::CompressedTexture2D::9163715027419999718::1714415299::1717437440::1::::<><>::
 README.md::TextFile::-1::1715276047::0::1::::<><>::
-::res://Scenes/::1717785675
-game.gd::GDScript::-1::1717785503::0::1::::<>Node3D<>::
-game.tscn::PackedScene::8730997806690818622::1717785675::0::1::::<><>::res://Scenes/game.gd<>res://Scenes/Player.gd<>uid://ct0x2bmyvjmj5::::res://models/Stylized Environment by Baloota (extract.me)/Assets/Textures/Tree-Bark_Albedo.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://5sixovnhr5im::::res://FPScounter.tscn<>uid://dl7w165x5t0e1::::res://textures/textures 2/ganges_river_pebbles_diff_4k.png<>uid://dunvr0visws8d::::res://textures/textures 2/ganges_river_pebbles_nor_gl_4k.png<>uid://dji8o1mny7aat::::res://textures/textures 2/ganges_river_pebbles_rough_4k.png
-Player.gd::GDScript::-1::1717785168::0::1::::<>CharacterBody3D<>::
+::res://Scenes/::1717786538
+game.gd::GDScript::-1::1717786163::0::1::::<>Node3D<>::
+game.tscn::PackedScene::8730997806690818622::1717786538::0::1::::<><>::res://Scenes/game.gd<>res://Scenes/Player.gd<>uid://dutk87xm4crdn::::res://textures/grass/brown_mud_leaves_01_diff_4k.png<>uid://r7ofqmvpm4b8::::res://textures/grass/brown_mud_leaves_01_rough_4k.png<>res://addons/simplegrasstextured/shaders/grass.gdshader<>uid://c4ggdp0kg5wjk::::res://addons/simplegrasstextured/textures/grassbushcc008.png<>res://addons/simplegrasstextured/grass.gd<>uid://5sixovnhr5im::::res://FPScounter.tscn<>uid://dl7w165x5t0e1::::res://textures/textures 2/ganges_river_pebbles_diff_4k.png<>uid://dunvr0visws8d::::res://textures/textures 2/ganges_river_pebbles_nor_gl_4k.png<>uid://dji8o1mny7aat::::res://textures/textures 2/ganges_river_pebbles_rough_4k.png<>uid://cfhh78tl2edgf::::res://box.tscn
+Player.gd::GDScript::-1::1717786495::0::1::::<>CharacterBody3D<>::
 ::res://textures/::1717785818
-::res://textures/grass/::1717785773
+::res://textures/grass/::1717785887
 brown_mud_leaves_01_diff_4k.png::CompressedTexture2D::8602929919155396183::1717785768::1717785878::1::::<><>::
 brown_mud_leaves_01_nor_gl_4k.png::CompressedTexture2D::1094263298932562524::1717785770::1717785832::1::::<><>::
 brown_mud_leaves_01_rough_4k.png::CompressedTexture2D::1260130256730667815::1717785770::1717785887::1::::<><>::
