@@ -1,2 +1,5 @@
 res://Scenes/game.tscn
+res://Scenes/Area3D.gd
 res://box.tscn
+res://Scenes/Player.gd
+res://Scenes/hitbox.gd
